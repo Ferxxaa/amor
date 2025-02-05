@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portada</title>
+  <style>
+    /* Estilos para la portada */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .portada {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-image: url('images/888255bd-0aae-473e-845f-3ebd1b937dc6.jpg'); /* Cambia 'fondo1.jpg' por la imagen que desees */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .contenido-portada {
+      background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el texto */
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .portada h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .portada p {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
+
+    .boton-inicio {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .boton-inicio:hover {
+      background-color: #d81b60;
+    }
+
+    /* Estilos para las tarjetas de perfil */
+    .perfil-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background-color: white;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h2 {
+      font-size: 1.6em;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+    }
+
+    .card .fecha {
+      font-size: 1em;
+      color: #888;
+    }
+
+    /* Estilo del mensaje final */
+    .mensaje-final {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 1.5em;
+      color: #ff4081;
+    }
+
+    .mensaje-final a {
+      text-decoration: none;
+      color: #ff4081;
+      font-weight: bold;
+    }
+
+    .mensaje-final a:hover {
+      color: #d81b60;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="portada">
+    <div class="contenido-portada">
+      <h1>Hola Amor!</h1>
+      <p>¡Gracias por todo lo que me das cada día, Eres la mejor del mundo!</p>
+      <!-- Botón que llevará a index.html -->
+      
+    </div>
+  </div>
+
+  <div class="perfil-container">
+    <div class="card">
+      <img src="images/IMG_7898.JPG" alt="Foto romántica 1">
+      <div class="card-content">
+        <h2>Recuerdos Mágicos</h2>
+        <p>Un atardecer juntos, compartiendo risas y momentos únicos.</p>
+        <p class="fecha">Publicado el: 26 de Julio, 2024</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/IMG_2642(playa1).jpg" alt="Foto romántica 2">
+      <div class="card-content">
+        <h2>Juntos Siempre</h2>
+        <p>Nuestra primera aventura llena de amor.</p>
+        <p class="fecha">Publicado el: 01 de diciembre, 2023</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/IMG_3354(anillo).jpg " alt="Foto romántica 3">
+      <div class="card-content">
+        <h2>Amor Infinito</h2>
+        <p>Un paseo bajo el atardecer, donde todo es posible a tu lado.</p>
+        <p class="fecha">Publicado el: 27 de Julio, 2024</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mensaje final -->
+  <div class="mensaje-final">
+    <p>¡Has recibido una carta de amor!</p>
+    <p><a href="index.html">Haz clic aquí para leerla</a></p>
+  </div>
+
+</body>
+</html>
